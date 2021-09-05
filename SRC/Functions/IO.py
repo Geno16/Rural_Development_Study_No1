@@ -14,3 +14,7 @@ class CSV_File:
 
     def Schema(self):
         self.csvFile.printSchema()
+
+    @staticmethod
+    def ExportCSV(aSparkSession, aPath, aDatatframe):
+        pass
